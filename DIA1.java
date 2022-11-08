@@ -1,6 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 public class DIA1 {
+    public static void main(String[]args){
+        Scanner sc = new Scanner (System.in);
 
     /*EXPRESSOES ARITMÉTICAS
 
@@ -32,7 +34,7 @@ public class DIA1 {
     System.out.println() > imprime uma mensagem com a quebra de linha
     System.out.printf() > usado para imprimir mensagens, mais precisamente utilizada quando há variáveis com
     ponto flutuante(contendo mais de uma variável a ser impressa na mensagem), de uma maneira mais simples.
-    É utilizado também para se obter um resultado mais preciso.
+    É utilizado também para se obter um resultado mais preciso. */
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -48,7 +50,7 @@ public class DIA1 {
             System.out.printf("A soma é %.2f%n", SOMA);
 
 
-    A expressão deve ser colocada entre aspas, exceto as variáveis;
+   /* A expressão deve ser colocada entre aspas, exceto as variáveis;
     As variáveis que forem ser utilizadas naquele printf devem ser colocadas em ordem logo após a vírgula
     A expressao "%n" serve para quebra de linha;
     A expresaao "%.2f" informa a quantidade de casas decimais que será impressa em uma determina variável (double ou float).O programa irá imprimir no final da execusao;
@@ -59,12 +61,13 @@ public class DIA1 {
 
     Assim, permite que o programa imprima na expressão (double ou float) o ponto, ao invés da vírgula.
     De modo geral para o printl e o println deve usar-se a concatenação (o sinal de +), para conectar a mensagem com as variáveis que serão impressas.
-    Lembrando que a línguagen JAVA é "case sensitive" então todas as expressões devem ser escritas de maneira assertiva, respeitando sua pontuação e lógica na escrita do programa para que não ocorra erros no código;
+    Lembrando que a línguagen JAVA é "case sensitive" então todas as expressões devem ser escritas de maneira assertiva, respeitando sua pontuação
+    e lógica na escrita do programa para que não ocorra erros no código; */
 
 ---------------------------------------------------------------------------------------------------------------------
-    Exercicio 2 (printf):
+   /* Exercicio 2 (printf):
 
-    No final do programa a mensagem deve aparecer da seguinte forma:
+   No final do programa a mensagem deve aparecer da seguinte forma:
 
     Products:
     Computer, which price is $ 2100,00
@@ -74,7 +77,7 @@ public class DIA1 {
 
     Mesuare which eight decimal places: 53,234567000
     Rouded (three decimal places): 53,235
-    US decimal point: 53.235
+    US decimal point: 53.235 */
 ----------------------------------------------------------------------------------------------------------------
 
     //CÓDIGO
@@ -101,6 +104,6 @@ public class DIA1 {
     Locale.setDefault(Locale.US);
     System.out.printf("US decimal point: %.3f", measure);
 
-     */
+    }
 
 }
