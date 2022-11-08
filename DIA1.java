@@ -38,7 +38,7 @@ public class DIA1 {
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-                EXEMPLOS DE COMO IMPRIMIR  O PRINTF:
+             // EXEMPLOS DE COMO IMPRIMIR  O PRINTF:
 
             //declaração das variáveis, e entrada de dados
 
