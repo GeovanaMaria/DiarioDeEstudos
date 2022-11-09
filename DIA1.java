@@ -34,9 +34,9 @@ public class DIA1 {
     System.out.println() > imprime uma mensagem com a quebra de linha
     System.out.printf() > usado para imprimir mensagens, mais precisamente utilizada quando há variáveis com
     ponto flutuante(contendo mais de uma variável a ser impressa na mensagem), de uma maneira mais simples.
-    É utilizado também para se obter um resultado mais preciso. */
+    É utilizado também para se obter um resultado mais preciso. 
 
----------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------*/
 
              // EXEMPLOS DE COMO IMPRIMIR  O PRINTF:
 
@@ -62,9 +62,9 @@ public class DIA1 {
     Assim, permite que o programa imprima na expressão (double ou float) o ponto, ao invés da vírgula.
     De modo geral para o printl e o println deve usar-se a concatenação (o sinal de +), para conectar a mensagem com as variáveis que serão impressas.
     Lembrando que a línguagen JAVA é "case sensitive" então todas as expressões devem ser escritas de maneira assertiva, respeitando sua pontuação
-    e lógica na escrita do programa para que não ocorra erros no código; */
+    e lógica na escrita do programa para que não ocorra erros no código; 
 
----------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------*/
    /* Exercicio 2 (printf):
 
    No final do programa a mensagem deve aparecer da seguinte forma:
@@ -77,8 +77,8 @@ public class DIA1 {
 
     Mesuare which eight decimal places: 53,234567000
     Rouded (three decimal places): 53,235
-    US decimal point: 53.235 */
-----------------------------------------------------------------------------------------------------------------
+    US decimal point: 53.235 
+----------------------------------------------------------------------------------------------------------------*/
 
     //CÓDIGO
 
